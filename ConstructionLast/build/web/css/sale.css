@@ -1,0 +1,27 @@
+.info .img-sale {
+    margin-right: 2%;
+    width: 30%;
+    float: left;
+
+}
+
+.sale-title{
+    font-family: sans-serif;
+    font-size: 130%;
+
+}
+
+
+.info {
+    padding-top: 4%;
+    border-bottom: 2px dotted gray;
+    max-width: 100%;
+
+}
+.sale-title{
+    text-decoration: none;
+}
+
+.paging{
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+.header {
+    background-color: #ffe541;
+    height: 140px;
+}
+
+.header-center {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.nav {
+    background-color: black;
+    height: 35px;
+    color: white;
+    padding-left: 2%;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    line-height: 35px;
+    margin-right: 40px;
+}
+
+.nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.nav li.home>a{
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav li.sale>a{
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav li.about1>a{
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav li.contact>a{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav li{
+    display: inline-block;
+}

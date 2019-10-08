@@ -1,0 +1,14 @@
+.img-about {
+    margin: 1.3%;
+    width: 60%;
+    float: right;
+  
+}
+
+.paging{
+    text-align: center;
+}
+
+.paging a{
+    color: #000;
+}

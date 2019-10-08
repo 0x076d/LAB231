@@ -1,0 +1,42 @@
+.aside {
+    width: 21%;
+    position: relative;
+    display: inline-block;
+    margin-top: 3%;  
+    
+}
+
+.aside .nav-right {
+    border: 1px solid gray;
+    width: 210px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 4%;
+    border-radius: 8%;
+    box-shadow: 0 0 8px #535353;
+    margin-right: -25%;
+}
+.buttton{
+    height: 30px;
+    width: 95%;
+    background-color: #3fb1a2; 
+    color:white;
+    border-radius: 50px;  
+    text-align: center;
+    border: none;
+    padding: 4%;
+}
+.nav-right a {
+    display: block;
+    color: black;
+}
+.nav-right a:hover {
+    color: black;
+}
+
+.h3-aside{
+    font-weight: bold;
+    font-size: 140%;
+}

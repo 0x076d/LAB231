@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ConstructionLast">
+  <Environment name="serverName" type="java.lang.String" value="localhost"/>
+  <Environment name="portNumber" type="java.lang.String" value="1433"/>
+  <Environment name="user" type="java.lang.String" value="sa"/>
+  <Environment name="pass" type="java.lang.String" value="sa"/>
+  <Environment name="dbName" type="java.lang.String" value="Constructor"/>
+  <Environment name="image" type="java.lang.String" value="img/"/>
+</Context>
