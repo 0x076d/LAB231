@@ -43,7 +43,7 @@
                         </div>
                         <div class="map">
                             <div class="border-map">
-                                <img src="${map}" />
+                                <img src="public/image/${map}" />
                             </div>
                         </div>
                     </div>

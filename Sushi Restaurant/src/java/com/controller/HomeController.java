@@ -25,7 +25,8 @@ public class HomeController extends HttpServlet {
         try {
             ArticleModel model = new ArticleModel();
             InfoModel infoModel = new InfoModel();
-            List<Information> info = infoModel.getInfoPage();
+//            List<Information> info = infoModel.getInfoPage();
+            
             int page = 1, pageSize = 2;
             int totalPage = model.getTotalRows(); // get number of content in DB
             if (request.getParameter("page") != null) { // check param page
@@ -46,7 +47,7 @@ public class HomeController extends HttpServlet {
 
             request.setAttribute("page", page);
             request.setAttribute("totalPage", totalPage);
-            request.setAttribute("urlCover", infoModel.getUrlCover(info));
+//            request.setAttribute("urlCover", infoModel.getUrlCover(info));
             request.setAttribute("active", "HomeColor");      
             request.getRequestDispatcher("index.jsp").forward(request, response);
         } catch (Exception ex) {
